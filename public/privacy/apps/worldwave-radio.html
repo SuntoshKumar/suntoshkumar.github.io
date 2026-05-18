@@ -1,0 +1,294 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Privacy Policy | WorldWave Radio</title>
+    <style>
+      :root {
+        color-scheme: dark;
+      }
+
+      * {
+        box-sizing: border-box;
+      }
+
+      body {
+        margin: 0;
+        font-family: "Inter", "Segoe UI", system-ui, -apple-system, sans-serif;
+        color: #e2e8f0;
+        background: radial-gradient(circle at top, #0f172a, #020617 64%);
+      }
+
+      main {
+        margin: 0 auto;
+        width: min(940px, 92vw);
+        padding: 42px 0 80px;
+      }
+
+      h1 {
+        margin: 0 0 8px;
+        font-size: clamp(1.9rem, 4vw, 2.7rem);
+      }
+
+      h2 {
+        margin-top: 28px;
+        margin-bottom: 10px;
+        font-size: 1.35rem;
+      }
+
+      p,
+      li {
+        color: #cbd5e1;
+        line-height: 1.66;
+      }
+
+      ul {
+        padding-left: 1.25rem;
+      }
+
+      .badge {
+        display: inline-block;
+        margin-top: 6px;
+        border-radius: 999px;
+        border: 1px solid #334155;
+        background: rgba(15, 23, 42, 0.72);
+        padding: 6px 12px;
+        color: #94a3b8;
+        font-size: 0.92rem;
+      }
+
+      .card {
+        margin-top: 20px;
+        border: 1px solid #334155;
+        border-radius: 14px;
+        background: rgba(15, 23, 42, 0.65);
+        padding: 18px 20px;
+      }
+
+      a {
+        color: #67e8f9;
+      }
+
+      code {
+        color: #bae6fd;
+      }
+    </style>
+  </head>
+  <body>
+    <main>
+      <a href="../">← Back to all privacy policies</a>
+      <h1>Privacy Policy for WorldWave Radio</h1>
+      <div class="badge">Effective date: 2026-05-18 · Last updated: 2026-05-18</div>
+
+      <section class="card">
+        <h2>Introduction</h2>
+        <p>
+          WorldWave Radio (package: <code>com.sam.krish.usa.worldwaveradio</code>) is an Android
+          internet radio app that streams online audio content and station metadata. This policy
+          explains what data is processed when you use the app, how that data is used, and your
+          choices.
+        </p>
+        <ul>
+          <li><strong>App display name:</strong> WorldWave Radio</li>
+          <li><strong>Current app version:</strong> 1.2.8</li>
+          <li><strong>App link domain:</strong> <code>worldwaveradio.app</code></li>
+          <li>
+            <strong>Core access model:</strong> guest listening supported; account login is not
+            required for core streaming use.
+          </li>
+        </ul>
+
+        <h2>Information We Process</h2>
+        <h3>Information processed to run core app features</h3>
+        <ul>
+          <li>
+            Network and request data needed to fetch station metadata and stream audio over the
+            internet.
+          </li>
+          <li>
+            Device/app technical data required for playback compatibility and service operation
+            (for example app version, OS-level runtime context, and service state).
+          </li>
+          <li>Foreground playback service state for persistent background listening.</li>
+          <li>Notification-related state for playback, sleep-timer, and playback-issue alerts.</li>
+        </ul>
+
+        <h3>Information stored locally on device</h3>
+        <ul>
+          <li>Local app preferences via DataStore Preferences.</li>
+          <li>Local database records via Room for app feature state.</li>
+          <li>
+            Optional local profile fields entered in-app (such as display name or email) for user
+            experience features.
+          </li>
+        </ul>
+
+        <h3>Purchases and billing-related information</h3>
+        <ul>
+          <li>Google Play Billing is integrated for premium/ad-free flow.</li>
+          <li>Product IDs are managed in Google Play Console and may change over time.</li>
+          <li>
+            Purchase and entitlement status data may be processed to validate access, restore
+            purchases, and prevent abuse.
+          </li>
+          <li>
+            Payment card and payment instrument details are handled by Google Play, not directly by
+            this app developer.
+          </li>
+        </ul>
+
+        <h2>Information We Do Not Request by Default App Permissions</h2>
+        <p>The main manifest does not request runtime permissions for the following categories by default:</p>
+        <ul>
+          <li>Precise or approximate location</li>
+          <li>Contacts</li>
+          <li>Microphone/audio recording</li>
+          <li>Bluetooth or nearby devices/casting runtime access</li>
+          <li>External file/media runtime access</li>
+        </ul>
+        <p>As implemented, those categories are not collected via default app runtime permission prompts.</p>
+
+        <h2>How We Use Information</h2>
+        <ul>
+          <li>Deliver internet radio playback and station metadata.</li>
+          <li>Operate background playback and user notifications.</li>
+          <li>Save local preferences and local profile UX state.</li>
+          <li>Serve advertising and rewarded support ad experiences.</li>
+          <li>Support premium/ad-free billing flows, verification, and restore logic.</li>
+          <li>Protect service integrity and prevent fraud/abuse.</li>
+        </ul>
+
+        <h2>Advertising</h2>
+        <p>Advertising is enabled in WorldWave Radio.</p>
+        <ul>
+          <li>Ad model: Google Mobile Ads (native ads and rewarded support ads).</li>
+          <li>Dependency: <code>com.google.android.gms:play-services-ads:25.2.0</code>.</li>
+          <li>Ad services may process identifiers and operational data under Google policies.</li>
+          <li>You can manage ad personalization controls through your Android/Google settings where available.</li>
+        </ul>
+
+        <h2>In-App Purchases and Subscriptions</h2>
+        <p>In-app purchases/subscription support is enabled through Google Play Billing.</p>
+        <ul>
+          <li>Dependency: <code>com.android.billingclient:billing-ktx:8.3.0</code>.</li>
+          <li>Product IDs are managed in Google Play Console and may change over time.</li>
+          <li>Billing and transaction processing are handled by Google Play.</li>
+          <li>
+            This app may process purchase tokens/order status/entitlement state needed for
+            verification and restore.
+          </li>
+        </ul>
+
+        <h2>SDKs, Libraries, and Platform Services Used</h2>
+        <ul>
+          <li>Google Play services ads: <code>com.google.android.gms:play-services-ads:25.2.0</code></li>
+          <li>Google Play Billing: <code>com.android.billingclient:billing-ktx:8.3.0</code></li>
+          <li>Google Play In-App Review: <code>com.google.android.play:review:2.0.2</code></li>
+          <li>Google Play Integrity API: <code>com.google.android.play:integrity:1.6.0</code></li>
+          <li>AndroidX Media3 (audio playback/session): <code>1.10.1</code></li>
+          <li>Retrofit: <code>3.0.0</code></li>
+          <li>OkHttp + Logging Interceptor: <code>5.3.2</code></li>
+          <li>Room Database: <code>2.8.4</code></li>
+          <li>DataStore Preferences: <code>1.2.1</code></li>
+          <li>Coil image loading: <code>2.7.0</code></li>
+          <li>Lottie animations: <code>6.7.1</code></li>
+        </ul>
+
+        <h2>Analytics and Crash Reporting</h2>
+        <ul>
+          <li>
+            No dedicated third-party analytics/crash SDK is integrated at this time (including
+            Firebase Analytics, Crashlytics, Sentry, Bugsnag, Mixpanel, and Amplitude).
+          </li>
+          <li>
+            Google Play services/ads/billing components may still process their own operational
+            diagnostics under their own policies.
+          </li>
+        </ul>
+
+        <h2>Data Sharing and Third Parties</h2>
+        <p>
+          Data may be shared with or processed by third-party providers only as needed to run app
+          features, ads, billing, and platform integrity/review flows, including Google Play
+          services and related Google APIs. Third-party processing is governed by their own
+          policies and terms.
+        </p>
+
+        <h2>Data Retention</h2>
+        <ul>
+          <li>
+            Local app preferences/local database/profile UX fields remain on device until user
+            clears app data or uninstalls.
+          </li>
+          <li>
+            Purchase entitlement state (including ad-free flag state in app storage) remains until
+            uninstall/clear data; entitlement can be restored from Google Play restore flow.
+          </li>
+          <li>
+            Ads/billing/platform operational data retained by external providers follows provider
+            policy and applicable law.
+          </li>
+          <li>
+            Support email communications may be retained until request resolution and then archived
+            for reasonable legal/business recordkeeping.
+          </li>
+        </ul>
+
+        <h2>Data Security</h2>
+        <p>
+          Reasonable technical and organizational measures are used to protect data handled by the
+          app. No system can guarantee absolute security.
+        </p>
+
+        <h2>Children’s Privacy</h2>
+        <p>
+          WorldWave Radio is a general-audience app and is not directed to children under 13. We do
+          not knowingly collect personal information from children under 13. If you believe a child
+          provided personal information, contact support to request review and deletion where
+          applicable.
+        </p>
+
+        <h2>International Data Transfers</h2>
+        <p>
+          Depending on provider infrastructure, information may be processed in countries other than
+          your own. Applicable safeguards and provider controls apply under their terms and legal
+          obligations.
+        </p>
+
+        <h2>Your Rights and Choices</h2>
+        <p>
+          Depending on your location and applicable law, you may have rights to access, correct,
+          delete, or object to certain processing, and to withdraw consent where consent is used.
+          You may also control ad personalization through platform settings.
+        </p>
+        <p>For privacy requests, contact: <code>samkrishusa007@gmail.com</code>.</p>
+
+        <h2>Changes to This Privacy Policy</h2>
+        <p>
+          This policy may be updated over time to reflect app changes, legal updates, or operational
+          updates. Material updates will be reflected by changing the "Last Updated" date.
+        </p>
+
+        <h2>Contact</h2>
+        <ul>
+          <li>Support/Privacy contact email: <code>samkrishusa007@gmail.com</code></li>
+          <li>App domain: <code>worldwaveradio.app</code></li>
+        </ul>
+
+        <h2>Short In-App Privacy Summary (5-8 bullets)</h2>
+        <ul>
+          <li>WorldWave Radio supports guest listening; no mandatory sign-in is required for core streaming.</li>
+          <li>The app uses internet access for radio streaming and station metadata.</li>
+          <li>Ads are enabled using Google Mobile Ads (native and rewarded support ads).</li>
+          <li>Premium/ad-free billing flow is integrated through Google Play Billing.</li>
+          <li>Payment card details are handled by Google Play, not directly by the developer.</li>
+          <li>Local preferences/profile UX fields are stored on device and can be removed by clearing app data or uninstalling.</li>
+          <li>No dedicated third-party analytics or crash SDK is integrated at this time.</li>
+          <li>Notifications and foreground playback service are used for background audio and playback-related alerts.</li>
+        </ul>
+
+      </section>
+    </main>
+  </body>
+</html>

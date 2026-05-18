@@ -8,11 +8,11 @@
 iRadio ("the App") is an internet radio streaming app published on Google Play by an individual developer.
 
 - **App Name:** iRadio
-- **Developer Name:** Sam Krish
+- **Developer Name:** NextOrbit Technologies
 - **Account Type:** Personal
-- **Developer Account ID:** 4888588653922849642
-- **Legal Name:** Parmila Kumare
-- **Legal Address:** 5900 Ranchester Drive, Houston, TX 77036, United States
+- **Developer Account ID:** 4970794413365165425
+- **Legal Name:** Parmila Kumari
+- **Legal Address:** 5900 Ranchester Dr, Houston - 77036-2401, United States (US)
 - **Website:** https://suntoshkumar.github.io/
 
 This Privacy Policy explains what information may be collected, how it is used, and your choices when using iRadio.
@@ -143,12 +143,12 @@ We may update this Privacy Policy from time to time.
 For privacy questions or requests, contact:
 
 - **Public Developer Support Email:** samkrishusa007@gmail.com
-- **Developer/Google Contact Name:** Sam Krish
+- **Developer/Google Contact Name:** Suntosh Kumar
 - **Google Contact Email:** suntosemyanmar@gmail.com
-- **Google Contact Phone:** +959250552791
+- **Google Contact Phone:** +19453587531
 - **Account Owner Email:** suntosemyanmar@gmail.com
 - **Website:** https://suntoshkumar.github.io/
-- **Mailing Address:** Parmila Kumare, 5900 Ranchester Drive, Houston, TX 77036, United States
+- **Mailing Address:** Parmila Kumari, 5900 Ranchester Dr, Houston - 77036-2401, United States (US)
 
 ---
 
